@@ -1,0 +1,12 @@
+[global]
+address = "127.0.0.1"
+port = 80
+keep_alive = 300
+read_timeout = 300
+write_timeout = 300
+secret_key = "hPRYyVRiMyxpw5sBB1XeCMN1kFsDCqKvBi2QJxBVHQk="
+[global.limits]
+forms = 1048576
+json = 52428800
+"file/jpg" = 52428800
+msgpack = 52428800
